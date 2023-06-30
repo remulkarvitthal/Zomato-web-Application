@@ -1,0 +1,150 @@
+
+.heading-1{
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: blue;
+    margin: 20px 0;
+}
+
+.filterPanel{
+    height: 682px;
+    box-shadow: 0 3px 6px 0 black;
+    background: white;
+    padding: 15px;
+}
+
+.resultsPanel{
+    height: 291px;
+    box-shadow: 0 3px 6px 0 black;
+    background: white;
+    margin-bottom:30px ;
+}
+.filterPanelHeading{
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: blueviolet;
+}
+.filterPanelSubHeading{
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: blueviolet;
+    margin: 15px 0;
+
+}
+.locationSelection{
+    height: 35px;
+    width: 100%;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px black;
+}
+
+.cuisineOption{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+    margin: 10px;
+}
+
+.upperSection{
+    padding: 20px;
+    padding-bottom: 0;
+    display: flex;
+    gap: 2rem;
+}
+.lowerSection{
+    padding: 20px;
+    padding-bottom: 0;
+}
+.resultsImage{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+.resultsHeading{
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: blue;
+}
+.resultsSubHeading{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
+.resultsAddress{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
+
+.pegination{
+    display: flex;
+    padding-left: 30%;
+}
+.peginationButton{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+@media screen  and (max-width:1220px) {
+    .resultsHeading, .resultsSubHeading, .resultsAddress {
+        margin-left: 50px;
+    }
+
+    .lowerSection{
+        padding-top: 0;
+    }
+
+    .lowerSection, .resultsAddress{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+

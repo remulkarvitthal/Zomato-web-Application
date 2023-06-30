@@ -1,0 +1,52 @@
+.division{
+    background-color: red;
+    height: 70px;
+    padding: 8px;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    justify-content: space-between;
+}
+
+.logoDiv{
+    position: relative;
+    top: 10px;
+}
+
+.btnDiv{
+    position: relative;
+    top: 15px;
+}
+
+.elogo{
+    border:  1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+.login-1{
+    border: none;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    /* left: 700px; */
+    right: 10px;
+}
+
+.account-1{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    /* left: 730px; */
+    right: 10px;
+    
+    
+}
